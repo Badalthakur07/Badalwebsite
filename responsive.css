@@ -1,0 +1,359 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.navbar{
+    display: flex;
+    height: 12vh;
+    width: 100%;
+    position: fixed;
+    background-color:white;
+    align-items: center;
+    
+}
+.logo{
+    background-color:white;
+    width: 10%;
+    color: black;
+     margin: 0 0 0 30px;
+     font-size: 30px;
+  
+
+
+
+}
+
+.navlist{  
+    width: 45%;
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+    
+    
+    
+    
+    
+
+}
+.navlist li{
+    list-style-type: none;
+    
+    
+}
+.navlist li a{
+    color: black;
+    text-decoration: none;
+
+}
+
+nav .navlist li a:hover{
+   color: blue;
+    
+    
+
+}
+.rightnav{
+    width: 45%;
+    background-color: white;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.nav-btn{
+    background-color: blue;
+    padding: 7px 30px 4px 30px ;
+    margin: 0 40px;
+    border: none;
+    border-radius: 17px;
+    color: white;
+    font-size: 15px;
+    
+    
+   }
+
+.burger{
+   display: none;
+   position: absolute;
+   right: 5%;
+   top: 15px;
+}
+
+
+.line{
+    width: 33px;
+    background-color:white;
+    height: 2px;
+    margin: 2px;
+}
+.insta{
+    background-color: rgb(242, 171, 193);
+    padding: 16vh 0 7vh 0 ;
+    text-align: center;
+    
+}
+
+.ins{
+    width: 10px;
+    height: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    
+
+
+}
+
+.firstsection{
+   height: 50vh;
+   padding: 16vh 0 7vh 0 ;
+
+}
+
+.mainbox{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.firsthalf{
+    width: 50%;
+    text-align: center;
+
+}
+.secondhalf{
+    width: 50%;
+    text-align: center;
+}
+
+
+
+
+
+
+#image-nature{
+    width: 200px;
+    height: 200px;
+}
+
+.secondsection{
+    display: flex;
+    height: 167vh;
+    
+}
+.sec-firsthalf{
+    width: 60%;
+   
+    
+}
+.sec-firsthalf-img{
+    width: 681px;
+    height:836px;
+}
+
+
+.sec-secondhalf{
+   background-color:  rgb( 218, 196, 251);
+   width: 40%;
+   height:836px;
+
+}
+
+.secondhalf-heading{
+    font-size: 60px;
+}
+
+.sechalf-pra{
+    font-size: 20px;
+}
+
+
+.btn-sechalf{
+    border:none;
+    margin:  9vh 0 5vh 5vh;
+    padding: 3vh 6vh 3vh 6vh;
+    border-radius: 20px;
+    font-size: medium;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+
+}
+
+
+
+
+.footer-first{
+    text-align: center;
+    margin: 30px 0 40px 0 ;
+    font-size: 30px;
+   
+}
+.footer-about{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footer-second li{
+      
+    list-style-type: none;
+    text-decoration: none;
+}
+.footer-third li{
+   list-style-type: none;
+   text-decoration: none;
+}
+.footer-four  li{
+   list-style-type: none;
+  text-decoration:none ;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+   .navlist{
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+
+
+    
+   
+   }
+
+ .navlist li{
+    margin: 4px;
+ }
+
+ 
+
+   .navbar{
+    flex-direction: column;
+    background-color:white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+ .logo{
+    position: absolute;
+    left: 4%;
+    top: 34%;
+ }
+
+
+.rightnav{
+    background-color: white;
+      display: flex;
+      justify-content: center;
+       
+}
+.nav-btn{
+   width: 100%;
+
+}
+
+
+.burger{
+   display: block;
+}
+.line{
+    background-color: black;
+}
+ 
+.mainbox{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.h-nav{
+    height: 120px;
+}
+.v-class{
+    visibility: hidden;
+}
+
+
+.secondsection{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    
+}
+
+.sec-firsthalf{
+    width: 100%;
+}
+.sec-secondhalf{
+   background-color:  rgb( 218, 196, 251);
+   width: 100%;
+
+}
+
+.sec-firsthalf-img{
+    width: 100%;
+    margin: 0px  0px 40px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-first{
+   text-align: center;
+   margin: 0 0 10px;
+}
+
+.footer-second {
+     margin: 6px;   
+      
+}
+.footer-third {
+   margin: 6px;
+} 
+.footer-four{
+   margin:6px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
